@@ -1,0 +1,564 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    position: relative;
+    width: 100px;
+    left: 100px;
+}
+
+.list{
+    list-style: none;
+    position: relative;
+    display: flex;
+    column-gap: 40px;
+    left: 70px;
+    color: gray;
+    font-size: 15px;
+}
+
+.items.active{
+    position: relative;
+    color: black;
+}
+
+p{
+    color: gray;
+}
+
+.register{
+    position: relative;
+    width: 120px;
+    right: 140px;
+    height: 40px;
+    background-color: white;
+    color: #66c5ff;
+    border: 2px solid #66c5ff;
+    border-radius: 5px;
+}
+
+
+.row-1{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.row-1-col1{
+    position: relative;
+    top:80px;
+    width: 500px;
+    height: 400px;
+    left: 90px;
+}
+
+
+.row-1-col1 h2{
+    position: relative;
+    font-size: 40px;
+}
+
+
+.row-1-col1 p{
+    position: relative;
+    font-size: 12px;
+    top:20px;
+    font-weight: 300;
+}
+
+.row-1-col1 button{
+    position: relative;
+    top:20px;
+    width: 120px;
+    right: 140px;
+    height: 40px;
+    background-color: #0683ef;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    left: 0;
+    top:50px;
+}
+
+.row-1-col2 img{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    width: 500px;
+}
+
+.row-2{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.row-2-col1 img{
+    position: absolute;
+    left: 40px;
+    width: 500px;
+}
+
+.row-2-col2{
+    position: absolute;
+    top:80px;
+    width: 500px;
+    height: 400px;
+    right: 90px;
+}
+
+.row-2-col2 h2{
+    position: absolute;
+    font-size: 40px;
+}
+
+
+.row-2-col2 p{
+    position: absolute;
+    font-size: 12px;
+    left:10px;
+    font-weight: 300;
+    top:150px
+}
+
+.row-2-col2 button{
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    background-color: #0683ef;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    left: 10px;
+    bottom: 120px;
+}
+
+.row-3{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    top:-30px;
+}
+
+.row-3-col1{
+    position: relative;
+    top:100px;
+    width: 500px;
+    height: 400px;
+    left: 90px;
+}
+
+.row-3-col1 h2{
+    position: absolute;
+    font-size: 40px;
+}
+
+.row-3-col1 p{
+    position: absolute;
+    font-size: 12px;
+    left:10px;
+    font-weight: 300;
+    top:150px
+}
+
+.row-3-col1 button{
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    background-color: #0683ef;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    left: 10px;
+    bottom: 120px;
+}
+
+.row-3-col2 img{
+    position: absolute;
+    right: 40px;
+    top: 0px;
+    width: 550px;
+}
+
+.row-4{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+
+.row-4 h2{
+    position: absolute;
+    width: 100%;
+    font-size: 40px;
+    left: 100px;
+}
+
+.row-4 p{
+    position: absolute;
+    width: 400px;
+    right: 100px;
+    top:20px;
+    font-size: 12px;
+}
+
+.row-5{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.row-5-subrow-1{
+    position: relative;
+    display: flex;
+    column-gap: 100px;
+    left: 100px;
+}
+
+.row-5-subrow-2{
+    position: relative;
+    display: flex;
+    column-gap: 100px;
+    left: 100px;
+    top:80px
+}
+
+.sub-row{
+    width: 300px;
+}
+
+.icon-2
+{
+    width: 75px;
+}
+
+.icon-3,
+.icon-4,
+.icon-5{
+    width: 55px;
+}
+
+.icon-5{
+    position: relative;
+    left: 15px;
+}
+
+.sub-row h4{
+    position: relative;
+    top:10px;
+}
+
+.sub-row p{
+    position: relative;
+    top:20px;
+    font-size: 12px;
+}
+
+.row-6{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    height: 100px;
+    background-color: #07a2f4;
+    color: white;
+}
+
+.row-6 h2{
+    position: relative;
+    top:35px;
+}
+
+.row-7{
+    position: relative;
+    height: 550px;
+    display: flex;
+    background-color: #07a2f4;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.row-7cls{
+    position: relative;
+    width: 280px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    top: 50px;
+}
+
+.frame{
+    position: relative;
+}
+
+.row-7-top{
+    position: relative;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.row-7-col2 .row-7-top{
+    background-color: #353535;
+    color: white;
+    border-radius: 8px;
+}
+
+.row-7-top h3{
+    position: relative;
+    font-size: 20px;
+    left: 20px;
+    top:10px;
+}
+
+.row-7-top p{
+    position: relative;
+    top: 20px;
+    font-size: 12px;
+    left: 20px;
+}
+
+.row-7-middle-1{
+    position: relative;
+    width: 250px;
+    height: 210px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.row-7-middle-1 li{
+    font-size: 12px;
+    position: relative;
+    left: 30px;
+    margin-bottom: 20px;
+    top:30px;
+}
+
+.row-7-middle-2{
+    position: relative;
+    width: 250px;
+    height: 65px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.row-7-middle-2 h2{
+    position: relative;
+    font-size: 20px;
+}
+
+.row-7-middle-2 p{
+    position: relative;
+    font-size: 12px;
+    color: gray;
+}
+
+.row-7-middle-2 span{
+    color: gray;
+}
+
+.btn.chooseplan{
+    position: relative;
+    top:10px;
+    width: 120px;
+    height: 40px;
+    color: #66c5ff;
+    border: 2px solid #66c5ff;
+    margin: 0 auto;
+    left: 80px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+.btn.chooseplan.active{
+    background-color: #0683ef;
+    color: white;
+    border: none;
+}
+
+.row-8{
+    position: relative;
+    text-align: center;
+    top:20px;
+    height: 130px;
+}
+
+.row-8 h2{
+    font-size: 30px;
+} 
+
+.row-8 p{
+    position: relative;
+    top: 10px;
+    font-size: 12px;
+    width: 400px;
+    left:430px
+} 
+
+.row-9{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    column-gap: 50px;
+}
+
+.row-9-subrow{
+    position: relative;
+    width: 500px;
+    height: 200px;
+    margin-bottom: 20px;
+    top:30px;
+    left: 100px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px gray;
+}
+
+.row-9-subrow p{
+    position: relative;
+    top:10px;
+    left: 10px;
+    width: 450px;
+    font-size: 12px;
+}
+
+.intro{
+    top:40px;
+    position: relative;
+    display: flex;
+}
+
+.intro div h2{
+    position: relative;
+    font-size: 12px;
+    left:40px;
+}
+
+.intro p{
+    position: relative;
+    font-size: 10px;
+    left:40px;
+}
+
+.row-10{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background:  #0683ef;
+    display: flex;
+    align-items: center;
+}
+
+.row-10-col1{
+    position: relative;
+    left: 100px;
+}
+
+.row-10 h2{
+    font-size: 30px;
+    color: white;
+}
+
+.row-10 p{
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+    width: 500px;
+    color: white;
+}
+
+.register-2{
+    position: relative;
+    width: 120px;
+    height: 40px;
+    left: 300px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: #0683ef;
+}
+
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    list-style: none;
+    top:90px;
+}
+
+.foot-col1{
+    width: 300px;
+}
+
+.foot-col1 p{
+    font-size: 12px;
+}
+
+.foot-logo{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.social{
+    width: 120px;
+    position: relative;
+    left: -10px;
+}
+
+.foot-Items{
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: gray;
+}
+
+.foot-Items.active{
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+}
+
+
+.row-7-middle-1 li::before {
+    content: '✓';
+    border: 1.5px solid green;
+    border-radius: 40px;
+    border-color: green;
+    height: 15px; /* it's all controlled by the border */
+    width: 15px;
+    margin-left:  -2.0rem;
+    margin-right: 20px;
+    position: absolute;     
+    text-align: center;
+}
+
+
+/* .row-7-middle-1 li:before {
+    position: relative;
+    content: '✓';
+    color: green;
+    border-radius: 30px;
+    border: 1px solid green;
+    width: 20px;
+  } */
